@@ -7,9 +7,9 @@ int main()
 {
     int nen =0, tuki =0;
     printf("nen tuki = ");
-    scanf_s("%d\n",&nen); 
-    scanf_s("%d\n", &tuki);
-    printf("%d,%d", nen, tuki);
+    scanf_s("%d",&nen); 
+    scanf_s("%d", &tuki);
+    printf("%d年,%d日\n", nen, tuki);
     if (tuki ==2) {
         if (nen % 4 == 0) {
             if (nen % 100 == 0 && !(nen % 400 == 0)) {
